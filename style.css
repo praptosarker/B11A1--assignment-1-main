@@ -1,0 +1,137 @@
+/* universal section */
+/* header section  */
+/* -----------------------------------hero section  */
+.hero-container{
+    height: 560px;
+    width: 1280px;
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 160px 0px 160px;
+    border-radius: 24px;
+}
+.text-box > p{
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 200px;
+    color: #0e0e0e;
+    opacity: 50%;
+}
+.text-box > h1{
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: bold;
+    color: #0e0e0e;
+    margin-bottom: 24px;
+}
+.text-box > button{
+    background-color: #006A50;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 17px 34px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+.text-box{
+    padding-left: 60px;
+}
+.image-box{
+    padding-right: 60px;
+}
+/* ---------------------------------vision-container  */
+.vision-container{
+    margin: 80px 160px 0px 160px;
+    width: 1280px;
+}
+.text{
+    height: 120px;
+    width: 1280px;
+}
+.card{
+    height: 325px;
+    width: 1280px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.qoute{
+    height: 150px;
+    width: 1160px;
+    background-color: #ffffff;
+    padding: 24px 48px;
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin-top: 10px;
+}
+.vision-container > .text > h2{
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0e0e0e;
+}
+.vision-container > .text > p{
+    font-size: 16px;
+    color: #0e0e0e;
+    opacity: 70%;
+}
+.card1{
+    background-color: rgb(84, 144, 245, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+}
+.card2{
+    background-color: #C6E4D6;
+    padding: 40px;
+    border-radius: 16px;
+}
+.card3{
+    background-color: #F7EBCF;
+    padding: 40px;
+    border-radius: 16px;
+}
+.card1 > button{
+    background-color: #5490F5;
+    color: #ffffff;
+    font-weight: 700px;
+    font-size: 16px;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.card1 > button{
+    background-color: #5490F5;
+    color: #ffffff;
+    font-weight: 700px;
+    font-size: 16px;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.card2 > button{
+    background-color: #09A15C;
+    color: #ffffff;
+    font-weight: 700px;
+    font-size: 16px;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.card3 > button{
+    background-color: #FFC239;
+    color: #ffffff;
+    font-weight: 700px;
+    font-size: 16px;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.cheif-advisor{
+    line-height: 8%;
+}
+.cheif-advisor > p{
+    opacity: 60%;
+}
+
+
