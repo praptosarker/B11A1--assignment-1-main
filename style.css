@@ -1,5 +1,9 @@
 /* universal section */
+*{
+    font-family: Fira Sans;
+}
 /* header section  */
+/* --------------------------------------menu */
 /* -----------------------------------hero section  */
 .hero-container{
     height: 560px;
@@ -55,18 +59,20 @@
     display: flex;
     gap: 60px;
     align-items: center;
+    margin-top: 40px;
 }
 .qoute{
-    height: 150px;
-    width: 1160px;
+    height: 250px;
+    width: 1380px;
+    padding: 40px 90px;
+    height: fit-content;
+    width: fit-content;
     background-color: #ffffff;
-    padding: 24px 48px;
     border: 2px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .vision-container > .text > h2{
-    font-family: Fira Sans;
     font-size: 40px;
     font-weight: bold;
     color: #0e0e0e;
@@ -78,12 +84,12 @@
 }
 .card1{
     background-color: rgb(84, 144, 245, 0.2);
-    padding: 32px;
+    padding: 40px;
     border-radius: 16px;
 }
 .card2{
     background-color: #C6E4D6;
-    padding: 40px;
+    padding: 40px 50px;
     border-radius: 16px;
 }
 .card3{
@@ -146,23 +152,28 @@
     height: 402px;
     width: 1280px;
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
+    padding: 50px 80px;
     align-items: center;
     background-color: #ffffff;
-    padding: 48px;
     border-radius: 24px;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 30px;
 }
 .recent-2{
     height: 402px;
     width: 1280px;
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
     align-items: center;
     flex-direction: row-reverse;
     background-color: #ffffff;
-    margin-top: 10px;
-    padding: 48px;
+    margin-top: 30px;
+    padding: 50px 80px;
     border-radius: 24px;
+    height: fit-content;
+    width: fit-content;
 }
 .child-1{
     width: 408px;
@@ -203,13 +214,13 @@
 }
 .box-2{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    gap: 30px;
+    justify-content: center;
 }
 .tk-1{
     background-color: #ffffff;
     border: 2px solid rgba(14, 14, 14, 0.15);
-    padding: 20px 80px;
+    padding: 10px 45px;
     border-radius: 16px;
 }
 .box-3{
@@ -218,10 +229,11 @@
     text-align: center;
 }
 .box-3 > input{
-    padding: 10px 450px;
+    padding: 20px 450px;
     margin-top: 20px;
     margin-left: 100px;
     border: 2px solid rgba(14, 14, 14, 0.15);
+    font-size: 20px;
 }
 .box-4 > button{
     background-color: #006A50;
@@ -231,6 +243,7 @@
     font-size: 18px;
     color: #ffffff;
     font-weight: 600;
+    margin: 30px;
     
 }
 .box-4{
@@ -242,30 +255,12 @@
     height: 395px;
     width: 1280px;
     background-color: #C6E4D6;
-    margin: 80px 160px 0px 160px;
+    margin: 150px 160px 0px 160px;
 }
-.input-btn{
-    width: 400px;
-    max-width: 100%;
-    position: relative;
-}
-.input-btn > input{
-    border: 2px solid rgba(14, 14, 14, 0.15);
-    width: 100%;
-  
-    padding: 18px 0px;
-}
-.input-btn > button{
-    background-color: #006A50;
-    border: none;
+.subscribe > h2{
     
-    font-size: 18px;
-    color: #ffffff;
-    font-weight: 600;
-    height: 100%;
-    aspect-ratio: 1;
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 17px 36px;
+}
+.h2{
+    font-size: 40px;
+    font-weight: bold;
 }
