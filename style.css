@@ -133,5 +133,139 @@
 .cheif-advisor > p{
     opacity: 60%;
 }
-
-
+/* --------------------------recent section */
+.news-container{
+    width: 1280px;
+    margin: 80px 160px 0px 160px;
+}
+.text{
+    height: 120px;
+    width: 1280px
+}
+.recent-1{
+    height: 402px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 48px;
+    border-radius: 24px;
+}
+.recent-2{
+    height: 402px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: #ffffff;
+    margin-top: 10px;
+    padding: 48px;
+    border-radius: 24px;
+}
+.child-1{
+    width: 408px;
+    height: 306px;
+}
+.child-1 > img{
+    border-radius: 24px;
+}
+.time{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    font-size: 16px;
+    color: #0e0e0e;
+    opacity: 70%;
+}
+.child-2 > p{
+    font-size: 16px;
+    color: #0e0e0e;
+    opacity: 70%;
+}
+.child-2 > button{
+    background-color: #006A50;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
+    font-family: 18px;
+    color: #ffffff
+}
+/* --------------------------------------donate section */
+.donate{
+    height: 350px;
+    width: 1280px;
+    margin: 80px 160px 0px 160px;
+}
+.box-1{
+    text-align: center;
+}
+.box-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tk-1{
+    background-color: #ffffff;
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    padding: 20px 80px;
+    border-radius: 16px;
+}
+.box-3{
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+}
+.box-3 > input{
+    padding: 10px 450px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border: 2px solid rgba(14, 14, 14, 0.15);
+}
+.box-4 > button{
+    background-color: #006A50;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    
+}
+.box-4{
+    text-align: center;
+    margin-top: 20px;
+}
+/* ----------------------------------------news subscription section  */
+.subscribe{
+    height: 395px;
+    width: 1280px;
+    background-color: #C6E4D6;
+    margin: 80px 160px 0px 160px;
+}
+.input-btn{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+.input-btn > input{
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    width: 100%;
+  
+    padding: 18px 0px;
+}
+.input-btn > button{
+    background-color: #006A50;
+    border: none;
+    
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    height: 100%;
+    aspect-ratio: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 17px 36px;
+}
