@@ -229,9 +229,9 @@
     text-align: center;
 }
 .box-3 > input{
-    padding: 20px 450px;
+    padding: 20px 400px;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 120px;
     border: 2px solid rgba(14, 14, 14, 0.15);
     font-size: 20px;
 }
@@ -252,15 +252,50 @@
 }
 /* ----------------------------------------news subscription section  */
 .subscribe{
-    height: 395px;
-    width: 1280px;
+    height: 235px;
+    width: 1080px;
     background-color: #C6E4D6;
     margin: 150px 160px 0px 160px;
+    padding: 40px 100px 90px;
+    border-radius: 24px;
 }
 .subscribe > h2{
-    
+    text-align: center;
+}
+.para{
+    text-align: center;
+}
+.label{
+    position: relative;
+    margin-left: 135px;
+}
+.label > input{
+    height: 55px;
+    width: 600px;
+    border: none;
+    padding: 0px 40px;
+    border-radius: 8px 0px 0px 8px;
+}
+.label > button{
+    position: absolute;
+    height: 56px;
+    width: 150px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #006A50;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
 }
 .h2{
     font-size: 40px;
     font-weight: bold;
 }
+/* -------------------------------hover section  */
+button{
+    cursor: pointer;
+}
+.tk-1:hover , button:hover{
+    background-color: #09c999;
+}
+.card
